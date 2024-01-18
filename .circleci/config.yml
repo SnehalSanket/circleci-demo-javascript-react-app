@@ -12,13 +12,7 @@ jobs:
       - run: 
           name: Node version
           command: node --version
-comment: >
-        - run:
-            name: Install Dependencies
-            command: npm install
-        - run:
-            name: Run Tests
-            command: npm run test
+
 comment: >    
   orbs:
     node: circleci/node@4.7.0
