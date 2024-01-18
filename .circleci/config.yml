@@ -10,8 +10,8 @@ jobs:
     steps:
       - checkout
       - run: 
-        name: Node version
-        command: node --version
+          name: Node version
+          command: node --version
       - run:
           name: Install Dependencies
           command: npm install
